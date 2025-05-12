@@ -1,0 +1,65 @@
+.destinations {
+  margin-top: 100px;
+  text-align: center;
+
+  .title {
+    .top-selling {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 100%;
+      color: #5e6282;
+      margin-bottom: 13px;
+    }
+    .dest-title {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 100%;
+      color: #14183e;
+      margin-bottom: 70px;
+    }
+  }
+  .place-wraper {
+    display: flex;
+    justify-content: space-around;
+    .place {
+      max-width: 250px;
+      img {
+        width: 250px;
+        height: 300px;
+        border-radius: 20px 20px 0px 0px;
+        margin-bottom: 15px;
+      }
+      .place-price {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        .city {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 125%;
+          color: #5e6282;
+        }
+        .price {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 125%;
+          color: #5e6282;
+        }
+      }
+      .days {
+        display: flex;
+        column-gap: 10px;
+        .pin {
+          width: 15px;
+          height: 15px;
+        }
+        .days-par {
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 125%;
+          color: #5e6282;
+        }
+      }
+    }
+  }
+}

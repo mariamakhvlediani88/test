@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+  main {
+    .text-content {
+      align-items: center;
+      margin: 0px auto;
+      margin-top: 70px;
+      .buttons {
+        button {
+          margin-left: 10px;
+        }
+      }
+    }
+    .img-content {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    .text-content {
+      align-items: center;
+      margin: 0px auto;
+      margin-top: 50px;
+    }
+  }
+}
